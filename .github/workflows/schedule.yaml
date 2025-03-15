@@ -2,7 +2,7 @@ name: Scheduled Job
 
 on:
   schedule:
-    - cron: "*/3 0 * * *"  # Runs at midnight UTC every day
+    - cron: "*/3 * * * *"  # Runs at midnight UTC every day
 
 jobs:
   daily-task:
