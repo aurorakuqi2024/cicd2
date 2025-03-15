@@ -14,3 +14,6 @@ steps:
 uses: actions/checkout@v3 # Checks out the code from your repository
 # Replace with commands relevant to your project
 - name: Run custom commands
+
+run: |
+echo "You made it to create you first ci/cd."
